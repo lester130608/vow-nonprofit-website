@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Organización sin fines de lucro dedicada a hacer la diferencia en nuestra comunidad">
+    <meta property="og:title" content="VOW - Voices of Women">
+    <meta property="og:description" content="Empoderando voces, transformando vidas">
+    <title>VOW - Voices of Women</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav" role="navigation" aria-label="Navegación principal">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>VOW</h1>
+                    <span>Voices of Women</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#programas">Programas</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#" class="btn-donate">Donar (Próximamente)</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="container">
+                <h2>Empoderando Voces, Transformando Vidas</h2>
+                <p>Nuestra misión es crear oportunidades para que las mujeres alcancen su máximo potencial y contribuyan al desarrollo de sus comunidades.</p>
+                <a href="#programas" class="btn-primary">Conoce Nuestros Programas</a>
+            </div>
+        </section>
+
+        <section id="nosotros" class="about">
+            <div class="container">
+                <h2>Acerca de Nosotros</h2>
+                <div class="about-content">
+                    <p>VOW - Voices of Women es una organización sin fines de lucro comprometida con el empoderamiento femenino y el desarrollo comunitario.</p>
+                    <p>Creemos que cuando las mujeres prosperan, las comunidades enteras se fortalecen. Trabajamos para eliminar barreras y crear oportunidades equitativas.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="programas" class="programs">
+            <div class="container">
+                <h2>Nuestros Programas</h2>
+                <div class="programs-grid">
+                    <div class="program-card">
+                        <h3>Liderazgo Femenino</h3>
+                        <p>Desarrollamos habilidades de liderazgo y empoderamiento personal para mujeres de todas las edades.</p>
+                    </div>
+                    <div class="program-card">
+                        <h3>Capacitación Laboral</h3>
+                        <p>Ofrecemos talleres y cursos para mejorar las oportunidades de empleo y emprendimiento.</p>
+                    </div>
+                    <div class="program-card">
+                        <h3>Apoyo Comunitario</h3>
+                        <p>Creamos redes de apoyo y mentoría para fortalecer los lazos comunitarios.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact">
+            <div class="container">
+                <h2>Contacto</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>¿Cómo podemos ayudarte?</h3>
+                        <p>Estamos aquí para escucharte y apoyarte en tu camino hacia el empoderamiento.</p>
+                    </div>
+                    <form class="contact-form" action="mailto:info@vowwomen.org" method="post" enctype="text/plain">
+                        <div class="form-group">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 VOW - Voices of Women. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
